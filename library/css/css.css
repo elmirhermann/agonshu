@@ -1,0 +1,144 @@
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+table.text-8{
+	font-family: Verdana;
+	font-size: 8px;
+	vertical-align: middle;
+}
+
+.white{
+	background-color: #FFFFFF;
+}
+
+.text-10{
+	font-family: Verdana;
+	font-size: 10px;
+	vertical-align: middle;
+}
+
+.img-profile{
+	width: 150px;
+	height: 150px;
+}
+
+.divcurso{
+	display: float;
+	margin: auto;
+	width: 50%;
+}
+
+.div-over{
+	//background-color: lightgray;
+	width: auto;
+	height: 350px;
+	overflow: auto;
+}
+
+.divcontainer{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menupills{
+	background-color: whiteSmoke;
+	border-radius: 4px;
+}
+
+.iframes{
+	width: 500px;
+	height: 350px;
+}
+
+	/***************/
+	/* Formularios */
+	/***************/
+	
+.formulario{
+  height: 34px;
+  padding: 4px 10px;
+  font-size: 10px;
+  line-height: 1;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+	/************/
+	/* FIELDSET */
+	/************/
+fieldset{
+	border: 1px solid #C0C0C0;
+	border-radius: 5px;
+}
+
+fieldset.halffield {
+	width: 50%;
+}
+
+legend{
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+	/*************/
+	/* RELATORIO */
+	/*************/
+	
+table.relatorio {
+  font-family: Verdana, Geneva, sans-serif;
+  width: auto;
+  text-align: left;
+}
+table.relatorio td, table.relatorio th {
+  border-bottom: 1px solid #AAAAAA;
+  padding: 6px 11px;
+}
+table.relatorio tbody td {
+  font-size: 11px;
+}
+table.relatorio tr:nth-child(even) {
+  background: #EBEBEB;
+}
+table.relatorio thead {
+  background: #2E0342;
+  border-bottom: 2px solid #444444;
+}
+table.relatorio thead th {
+  font-size: 11px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 1px solid #FFFFFF;
+}
+table.relatorio thead th:first-child {
+  border-left: none;
+}
+
+table.relatorio tfoot {
+  font-size: 11px;
+  font-weight: normal;
+  color: #FFFFFF;
+  background: #2E0342;
+  border-top: 1px solid #444444;
+}
+table.relatorio tfoot td {
+  font-size: 11px;
+}
+table.relatorio tfoot .links {
+  text-align: right;
+}
+table.relatorio tfoot .links a{
+  display: inline-block;
+  background: #42045E;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
