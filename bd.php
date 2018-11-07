@@ -1,0 +1,10 @@
+<?php
+require_once("bd/banco-associados.php");
+require_once("bd/banco-cidades.php");
+require_once("bd/banco-cursos.php");
+require_once("bd/banco-estadocivil.php");
+require_once("bd/banco-estrelas.php");
+require_once("bd/banco-mensalidades.php");
+require_once("bd/banco-profissao.php");
+require_once("bd/banco-receitas.php");
+require_once("bd/banco-usuario.php");
